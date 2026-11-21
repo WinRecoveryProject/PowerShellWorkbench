@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.0-beta.7 - 2026-11-20
+
+- Give each language documentation skill (bash, batch, cmd, csharp, css, html, javascript, json, lua, python, sql, toc, typescript, xml, yaml) its own `references/notes.md`: how to identify the version that applies, further primary sources, pitfalls that change behavior, and checks that do not run the code. The skills keep the shared workflow and catalog seed and stay research-only.
+
 ## 0.8.2 - 2026-09-07
 
 - Add PowerShell fragment-template generation and composition for reusable function and `#region` script pieces. Fragment templates are hash-bound to their source files, default to no-write preview, fail closed on source drift, reject conflicting duplicates, and never execute or transport generated code.
